@@ -1,5 +1,6 @@
 <template>
-  <div class="h-screen flex items-center justify-center">
+  <div class="h-screen flex flex-col items-center justify-center">
+    <p class="text-2xl m-10">Добро пожаловать, твоя очередь ломать голову, уверен это займет не больше двух минут</p>
     <div class="sm:w-1/2 bg-gray-200 flex flex-col rounded-lg shadow-lg">
       <div class="flex m-5 justify-between">
         <input v-model="firstWord" type="text">
